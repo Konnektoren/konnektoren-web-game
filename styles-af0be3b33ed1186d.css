@@ -1,0 +1,78 @@
+.footer {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+  margin-top: 40px;
+  border-top: 1px solid #e7e7e7;
+}
+
+.navigation {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 10;
+}
+.navigation nav {
+  background: linear-gradient(to right, #7F25FD, #FF86A1);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: auto;
+}
+.navigation nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+.navigation nav a:hover {
+  color: #b2dfdb;
+}
+.navigation nav .logo img {
+  max-height: 3.5rem;
+}
+@media (max-width: 768px) {
+  .navigation nav {
+    padding: 1rem;
+  }
+  .navigation nav a {
+    font-size: 0.8rem;
+    margin: 0 5px;
+  }
+}
+
+.select-language {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: white;
+  cursor: pointer;
+  width: auto;
+  display: block;
+  margin: 1rem 1rem;
+}
+
+.language-flags span {
+  margin-right: 0.5rem;
+  display: inline-block;
+}
+
+.map {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.map .challenge-config {
+  padding: 5px;
+  background-color: rgba(128, 128, 128, 0.4);
+  border-radius: 5px;
+  position: fixed;
+  top: 20%;
+  right: 5%;
+  z-index: 1000;
+  width: 80%;
+  max-width: 500px;
+  overflow: auto;
+}
