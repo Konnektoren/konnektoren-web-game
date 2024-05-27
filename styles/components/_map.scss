@@ -1,22 +1,27 @@
 @use "../abstracts" as *;
 
 .map {
+    display: flex; // Make .map a flex container
+    flex-direction: column; // Make .map vertical
+    justify-content: space-between; // Distribute the space between the flex items
     border: 1px solid black;
     border-radius: 5px;
-}
+    width: 100vw; // Set the width to 100% of the viewport width
+    height: 100vh; // Set the height to 100% of the viewport height
+    overflow: hidden; // Prevent scrolling
 
-.map {
     .challenge-config {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         padding: 5px;
         background-color: rgba(gray, 0.4);
         border-radius: 5px;
-        position: fixed;
-        top: 20%;
-        right: 5%;
-        z-index: 1000;
-        width: 80%;
-        max-width: 500px;
-        overflow: auto;
+        z-index: 1;
+        width: 200px; // Set the width to 200 pixels
+        height: 100px; // Set the height to 100 pixel
+        font-size: 12px; // Set the font size to 12 pixels
     }
 
     .game-map-svg {
