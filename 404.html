@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content="Master German grammar from levels A1 to C1 with Konnektoren.help. Our platform offers interactive challenges and gamification to make learning connectives and other grammar topics engaging and effective."/>
+
+    <meta name="robots" content="index, follow"/>
+    <meta name="author" content="Sofi"/>
+    <meta name="keywords"
+          content="German Grammar, Konnektoren, Learning Platform, Gamification, German Connectives, Language Learning, DTB C1"/>
+    <link rel="icon" href="/assets/images/Finally_Croped_Orange.svg"/>
+
+    <meta property="og:title" content="Master German Grammar with Konnektoren.help"/>
+    <meta property="og:description" content="Master German grammar from levels A1 to C1 with Konnektoren.help. Explore interactive tests and challenges designed to enhance your learning experience."/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://konnektoren.help/"/>
+    <meta property="og:image" content="https://konnektoren.help/assets/images/Finally_Croped_Orange.svg"/>
+
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:title" content="Master German Grammar with Konnektoren.help"/>
+    <meta name="twitter:description" content="Master German grammar from levels A1 to C1 with Konnektoren.help. Engage with our interactive platform to improve your skills."/>
+    <meta name="twitter:image" content="https://konnektoren.help/assets/images/Finally_Croped_Orange.svg"/>
+
+    <title>Konnektoren - Your Adventure in German Grammar</title>
+
+    <link rel="alternate" hreflang="ar" href="https://konnektoren.help/?lang=ar"/>
+    <link rel="alternate" hreflang="cn" href="https://konnektoren.help/?lang=cn"/>
+    <link rel="alternate" hreflang="de" href="https://konnektoren.help/?lang=de"/>
+    <link rel="alternate" hreflang="en" href="https://konnektoren.help/?lang=en"/>
+    <link rel="alternate" hreflang="es" href="https://konnektoren.help/?lang=es"/>
+    <link rel="alternate" hreflang="pl" href="https://konnektoren.help/?lang=pl"/>
+    <link rel="alternate" hreflang="tr" href="https://konnektoren.help/?lang=tr"/>
+    <link rel="alternate" hreflang="ua" href="https://konnektoren.help/?lang=ua"/>
+
+    <style>
+        #loading-container {
+            display: flex;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.8);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        #loading-message {
+            color: #121212;
+            margin-bottom: 20px;
+            font-size: 1.2rem;
+        }
+
+        #loading-progress {
+            background: linear-gradient(to right, #ff7e00, #ffbb00);
+            padding: 1rem 2rem;
+            width: 50%;
+            height: 30px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .spinner {
+            border: 4px solid rgba(0, 0, 0, 0.1);
+            border-left-color: #6200ea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin-bottom: 20px;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        main {
+            display: none;
+        }
+
+        .loaded main {
+            display: block;
+        }
+
+        .loaded #loading-container {
+            display: none;
+        }
+    </style>
+    <link rel="stylesheet" href="/styles-737c1494b97ab450.css" integrity="sha384&#x2D;4dRpV4ej5eFlVWk2KfPi1K3axGoJw5fP2mM22&#x2B;2RI2538vFW5E1qq8jxs2VLuuNx"/>
+
+    
+<script type="module" nonce="2X44nU5zG1RwxxJXNEbcJw==">
+async function __trunkInitializer(init, source, sourceSize, initializer) {
+  if (initializer === undefined) {
+    return await init(source);
+  }
+
+  return await __trunkInitWithProgress(init, source, sourceSize, initializer);
+}
+
+async function __trunkInitWithProgress(init, source, sourceSize, initializer) {
+
+  const {
+    onStart, onProgress, onComplete, onSuccess, onFailure
+  } = initializer;
+
+  onStart?.();
+
+  const response = fetch(source)
+      .then((response) => {
+        const reader = response.body.getReader();
+        const headers = response.headers;
+        const status = response.status;
+        const statusText = response.statusText;
+
+        const total = sourceSize;
+        let current = 0;
+
+        const stream = new ReadableStream({
+          start(controller) {
+            function push() {
+              reader.read().then(({done, value}) => {
+                if (done) {
+                  onProgress?.({current: total, total});
+                  controller.close();
+                  return;
+                }
+
+                current += value.byteLength;
+                onProgress?.({current, total});
+                controller.enqueue(value);
+                push();
+              });
+            }
+
+            push();
+          },
+        });
+
+        return {
+          stream, init: {
+            headers, status, statusText
+          }
+        };
+      })
+      .then(({stream, init}) =>
+          new Response(stream, init),
+      );
+
+  return init(response)
+      .then((value) => {
+        onComplete?.();
+        onSuccess?.(value);
+        return value;
+      }, (reason) => {
+        onComplete?.();
+        onFailure?.(reason);
+        return reason;
+      });
+}
+
+
+import init, * as bindings from '/konnektoren-web-game-pwa-26a1903d5b4a5c55.js';
+import initializer from '/34eef0ff3f466f23-initializer.mjs';
+
+const wasm = await __trunkInitializer(init, '/konnektoren-web-game-pwa-26a1903d5b4a5c55_bg.wasm', 5854164, initializer());
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script>
+    <link rel="icon" href="/favicon-9faa54d07de02a9b.ico" integrity="sha384&#x2D;hw9gVd43&#x2F;wHFXElbUzxyk3YK9cGvcm1nEpwghILypzkYwaE3ZCnn8MgY5F133FBA"/>
+    
+    
+    
+    
+
+    <!-- Google tag (gtag.js) -->
+    <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-N4PBT2YCM5"
+    ></script>
+    <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-RZE4XV6ER8"
+    ></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+
+        gtag("config", "G-N4PBT2YCM5", { groups: "default" });
+        gtag("config", "G-RZE4XV6ER8", { groups: "default" });
+    </script>
+
+<link rel="modulepreload" href="/konnektoren-web-game-pwa-26a1903d5b4a5c55.js" crossorigin=anonymous integrity="sha384-O5hTs9coDIKpkalWJLuNAnJ0qPM5DCPgB2nA660/oJjUhayfieUBa5pg0d/HuTaA">
+<link rel="modulepreload" href="/34eef0ff3f466f23-initializer.mjs" crossorigin=anonymous integrity="sha384-EPqntPoYOc7cNn30a0cPZ3XmGUhUWgc8fWjU9Fm1fD0fp/eqH9keJtSE7HvTUK83">
+<link rel="preload" href="/konnektoren-web-game-pwa-26a1903d5b4a5c55_bg.wasm" crossorigin=anonymous integrity="sha384-OFoH530BTw224MW4eKmssKtfmWeAOi0kDvYZ2vfdB/AG7igRUJEuNvrorANOJAn4" as="fetch" type="application/wasm"></head>
+<body>
+<div id="loading-container">
+    <div class="spinner"></div>
+    <div id="loading-progress"></div>
+    <div id="loading-message">Loading, please wait...</div>
+</div>
+<main>
+    <h1>Learn German Grammar</h1>
+    <p>
+        Embark on a fairy-tale journey to mastering German grammar. Our
+        platform focuses on Konnektoren (connectives), offering a unique
+        blend of storytelling and gamification to enhance your learning
+        experience.
+    </p>
+    <p>
+        Whether you're a beginner or advanced learner, our interactive
+        tests and challenges are designed to improve your understanding
+        and usage of German Konnektoren, making language learning an
+        enchanting adventure.
+    </p>
+</main>
+<script>
+    window.addEventListener('load', () => {
+        document.body.classList.add('loaded');
+    });
+</script>
+</body>
+</html>
