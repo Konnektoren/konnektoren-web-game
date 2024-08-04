@@ -72,6 +72,15 @@
 
 
     <style>
+        @keyframes fadeOut {
+            from {
+                opacity: 1;
+            }
+            to {
+                opacity: 0;
+            }
+        }
+
         #loading-container {
             display: flex;
             position: fixed;
@@ -114,12 +123,14 @@
         }
 
         .loaded #loading-container {
-            display: none;
+            animation: fadeOut 1s;
+            animation-fill-mode: forwards;
+            pointer-events: none;
         }
     </style>
 
     
-<script type="module" nonce="CjVqroBK0e8D7WCxBDA0PA==">
+<script type="module" nonce="FvSxFY5V6fnV1OzdWMg+xg==">
 async function __trunkInitializer(init, source, sourceSize, initializer) {
   if (initializer === undefined) {
     return await init(source);
