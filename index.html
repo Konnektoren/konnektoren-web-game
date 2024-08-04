@@ -65,7 +65,7 @@
         let min_loading_time = 3000;
         window.addEventListener('load', () => {
             setTimeout(() => {
-                document.body.classList.add('loaded');
+                document.getElementById("loading-container").classList.add('loaded');
             }, min_loading_time);
         });
     </script>
@@ -88,7 +88,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(255, 255, 255, 0.8);
+            background: rgb(255, 255, 255);
             z-index: 1000;
             justify-content: center;
             align-items: center;
@@ -114,15 +114,7 @@
             margin-bottom: 0;
         }
 
-        main {
-            display: none;
-        }
-
-        .loaded main {
-            display: block;
-        }
-
-        .loaded #loading-container {
+        #loading-container.loaded {
             animation: fadeOut 1s;
             animation-fill-mode: forwards;
             pointer-events: none;
@@ -130,7 +122,7 @@
     </style>
 
     
-<script type="module" nonce="1KY5szyy+3rATcvlhVjj6g==">
+<script type="module" nonce="ciCj76Vb3pWfylnZ9RJncw==">
 async function __trunkInitializer(init, source, sourceSize, initializer) {
   if (initializer === undefined) {
     return await init(source);
