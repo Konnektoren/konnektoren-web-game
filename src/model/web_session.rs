@@ -1,3 +1,4 @@
+use crate::model::ChallengeLoader;
 use gloo::storage::{LocalStorage, Storage};
 use konnektoren_core::session::Session;
 
@@ -44,7 +45,7 @@ impl WebSession {
 
 impl Default for WebSession {
     fn default() -> Self {
-        Self::new("websession".into())
+        Self::level_a1()
     }
 }
 
