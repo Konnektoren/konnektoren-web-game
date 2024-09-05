@@ -14,3 +14,13 @@ document.getElementById("greet-button").addEventListener("click", function () {
     optionsList.textContent = "No options available";
   }
 });
+
+document.getElementById("finish-button").addEventListener("click", function () {
+  console.log("Finishing the challenge...");
+
+  if (window.emit_challenge_event) {
+    const event = { type: "Finish", result: {} };
+    window.emit_challenge_event(event);
+  }
+
+});
