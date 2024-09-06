@@ -29,7 +29,7 @@ function loadQuestion() {
 
     // Update question image if available
     if (currentQuestion.image) {
-        questionImage.className = currentQuestion.image;
+        questionImage.className = "fas " + currentQuestion.image;
     } else {
         questionImage.className = "";
     }
