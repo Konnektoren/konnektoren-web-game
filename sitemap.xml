@@ -40,6 +40,19 @@
     <xhtml:link rel="alternate" hreflang="ua" href="https://konnektoren.help/about?lang=ua"/>
   </url>
   <url>
+    <loc>https://konnektoren.help/challenges</loc>
+    <lastmod>2024-09-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help/challenges"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://konnektoren.help/challenges?lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="cn" href="https://konnektoren.help/challenges?lang=cn"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://konnektoren.help/challenges?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help/challenges?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://konnektoren.help/challenges?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://konnektoren.help/challenges?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://konnektoren.help/challenges?lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="ua" href="https://konnektoren.help/challenges?lang=ua"/>
+  </url>
+  <url>
     <loc>https://konnektoren.help/leaderboard</loc>
     <lastmod>2024-09-06</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help/leaderboard"/>

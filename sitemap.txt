@@ -25,6 +25,15 @@ https://konnektoren.help/about?lang=es
 https://konnektoren.help/about?lang=pl
 https://konnektoren.help/about?lang=tr
 https://konnektoren.help/about?lang=ua
+https://konnektoren.help/challenges
+https://konnektoren.help/challenges?lang=ar
+https://konnektoren.help/challenges?lang=cn
+https://konnektoren.help/challenges?lang=de
+https://konnektoren.help/challenges?lang=en
+https://konnektoren.help/challenges?lang=es
+https://konnektoren.help/challenges?lang=pl
+https://konnektoren.help/challenges?lang=tr
+https://konnektoren.help/challenges?lang=ua
 https://konnektoren.help/leaderboard
 https://konnektoren.help/leaderboard?lang=ar
 https://konnektoren.help/leaderboard?lang=cn
