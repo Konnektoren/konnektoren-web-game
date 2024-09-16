@@ -1,0 +1,60 @@
+/* Custom Negation Exercise Styles */
+
+.custom_negation_challenge {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    width: 90%;
+    max-width: 800px;
+    margin: 40px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.custom_negation_challenge .exercise-title {
+    color: #0056b3;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.custom_negation_challenge .question {
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.custom_negation_challenge .question p {
+    font-size: 1.2em;
+}
+
+.custom_negation_challenge .question input[type="text"] {
+    padding: 8px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 80%;
+    font-size: 1em;
+}
+
+.custom_negation_challenge .feedback {
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+.custom_negation_challenge .explanation {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #333;
+    font-style: italic;
+}
+
+.custom_negation_challenge .important-word {
+    color: #d9534f; /* Red for important words */
+    font-weight: bold;
+}
+
+.custom_negation_challenge .highlight {
+    color: #0275d8; /* Blue for highlighted text */
+    font-weight: bold;
+}
