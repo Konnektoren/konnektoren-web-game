@@ -177,17 +177,13 @@
             href="https://konnektoren.help/?lang=ua"
         />
 
-        <link
-            rel="stylesheet"
-            href="/index-a5b6d0b458d2c550.css"
-            integrity="sha384&#x2D;HiaTSs9G40wJv2AI9coTeAu5ZXoQNU1N&#x2B;DCAl&#x2B;zYT3NmwdpGGSp2&#x2F;XMkMUkRQ&#x2F;jK"
-        />
+        <link rel="stylesheet" href="/index-a5b6d0b458d2c550.css" integrity="sha384&#x2D;HiaTSs9G40wJv2AI9coTeAu5ZXoQNU1N&#x2B;DCAl&#x2B;zYT3NmwdpGGSp2&#x2F;XMkMUkRQ&#x2F;jK"/>
 
-        <link
-            rel="icon"
-            href="/favicon-9faa54d07de02a9b.ico"
-            integrity="sha384&#x2D;hw9gVd43&#x2F;wHFXElbUzxyk3YK9cGvcm1nEpwghILypzkYwaE3ZCnn8MgY5F133FBA"
-        />
+        <link rel="icon" href="/favicon-9faa54d07de02a9b.ico" integrity="sha384&#x2D;hw9gVd43&#x2F;wHFXElbUzxyk3YK9cGvcm1nEpwghILypzkYwaE3ZCnn8MgY5F133FBA"/>
+        
+        
+        
+        
 
         <!-- Cookie Consent -->
         <link
@@ -196,11 +192,8 @@
         />
 
         <!-- Cloudflare Web Analytics -->
-        <script
-            defer
-            src="https://static.cloudflareinsights.com/beacon.min.js"
-            data-cf-beacon='{"token": "61feae70d15645d1ae3251a10d58b070"}'
-        ></script>
+        <script defer src='https://static.cloudflareinsights.com/beacon.min.js'
+                data-cf-beacon='{"token": "61feae70d15645d1ae3251a10d58b070"}'></script>
         <!-- End Cloudflare Web Analytics -->
 
         <!-- Google tag (gtag.js) -->
@@ -283,142 +276,94 @@
             }
         </style>
 
-        <script type="module" nonce="3KXrcaFxkVBIdUsgOKz/Pw==">
-            async function __trunkInitializer(
-                init,
-                source,
-                sourceSize,
-                initializer,
-            ) {
-                if (initializer === undefined) {
-                    return await init(source);
+        
+<script type="module" nonce="ViJyT9k03PwCZysHZhgJrA==">
+async function __trunkInitializer(init, source, sourceSize, initializer) {
+  if (initializer === undefined) {
+    return await init(source);
+  }
+
+  return await __trunkInitWithProgress(init, source, sourceSize, initializer);
+}
+
+async function __trunkInitWithProgress(init, source, sourceSize, initializer) {
+
+  const {
+    onStart, onProgress, onComplete, onSuccess, onFailure
+  } = initializer;
+
+  onStart?.();
+
+  const response = fetch(source)
+      .then((response) => {
+        const reader = response.body.getReader();
+        const headers = response.headers;
+        const status = response.status;
+        const statusText = response.statusText;
+
+        const total = sourceSize;
+        let current = 0;
+
+        const stream = new ReadableStream({
+          start(controller) {
+            function push() {
+              reader.read().then(({done, value}) => {
+                if (done) {
+                  onProgress?.({current: total, total});
+                  controller.close();
+                  return;
                 }
 
-                return await __trunkInitWithProgress(
-                    init,
-                    source,
-                    sourceSize,
-                    initializer,
-                );
+                current += value.byteLength;
+                onProgress?.({current, total});
+                controller.enqueue(value);
+                push();
+              });
             }
 
-            async function __trunkInitWithProgress(
-                init,
-                source,
-                sourceSize,
-                initializer,
-            ) {
-                const {
-                    onStart,
-                    onProgress,
-                    onComplete,
-                    onSuccess,
-                    onFailure,
-                } = initializer;
+            push();
+          },
+        });
 
-                onStart?.();
+        return {
+          stream, init: {
+            headers, status, statusText
+          }
+        };
+      })
+      .then(({stream, init}) =>
+          new Response(stream, init),
+      );
 
-                const response = fetch(source)
-                    .then((response) => {
-                        const reader = response.body.getReader();
-                        const headers = response.headers;
-                        const status = response.status;
-                        const statusText = response.statusText;
+  return init(response)
+      .then((value) => {
+        onComplete?.();
+        onSuccess?.(value);
+        return value;
+      }, (reason) => {
+        onComplete?.();
+        onFailure?.(reason);
+        return reason;
+      });
+}
 
-                        const total = sourceSize;
-                        let current = 0;
 
-                        const stream = new ReadableStream({
-                            start(controller) {
-                                function push() {
-                                    reader.read().then(({ done, value }) => {
-                                        if (done) {
-                                            onProgress?.({
-                                                current: total,
-                                                total,
-                                            });
-                                            controller.close();
-                                            return;
-                                        }
+import init, * as bindings from '/konnektoren-web-game-pwa-3cbcd3df4998db38.js';
+import initializer from '/16e617ae34ed8ea1-initializer.mjs';
 
-                                        current += value.byteLength;
-                                        onProgress?.({ current, total });
-                                        controller.enqueue(value);
-                                        push();
-                                    });
-                                }
+const wasm = await __trunkInitializer(init, '/konnektoren-web-game-pwa-3cbcd3df4998db38_bg.wasm', 6756006, initializer());
 
-                                push();
-                            },
-                        });
 
-                        return {
-                            stream,
-                            init: {
-                                headers,
-                                status,
-                                statusText,
-                            },
-                        };
-                    })
-                    .then(({ stream, init }) => new Response(stream, init));
+window.wasmBindings = bindings;
 
-                return init(response).then(
-                    (value) => {
-                        onComplete?.();
-                        onSuccess?.(value);
-                        return value;
-                    },
-                    (reason) => {
-                        onComplete?.();
-                        onFailure?.(reason);
-                        return reason;
-                    },
-                );
-            }
 
-            import init, * as bindings from "/konnektoren-web-game-pwa-3cbcd3df4998db38.js";
-            import initializer from "/16e617ae34ed8ea1-initializer.mjs";
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
 
-            const wasm = await __trunkInitializer(
-                init,
-                "/konnektoren-web-game-pwa-3cbcd3df4998db38_bg.wasm",
-                6756006,
-                initializer(),
-            );
-
-            window.wasmBindings = bindings;
-
-            dispatchEvent(
-                new CustomEvent("TrunkApplicationStarted", {
-                    detail: { wasm },
-                }),
-            );
-        </script>
-
-        <link
-            rel="modulepreload"
-            href="/konnektoren-web-game-pwa-3cbcd3df4998db38.js"
-            crossorigin="anonymous"
-            integrity="sha384-XgvWaNS1QFq92eYx9jZl9X58qzBiCaZyP43J6tiGebj8cp03jr/Y8ox+AEdyKnDC"
-        />
-        <link
-            rel="modulepreload"
-            href="/16e617ae34ed8ea1-initializer.mjs"
-            crossorigin="anonymous"
-            integrity="sha384-+ytoeUcdwmvRquyCKdAwk5vFsodcVRWMTqGMd3xm+jKMo3duvruh1hNfHWIS0/Nw"
-        />
-        <link
-            rel="preload"
-            href="/konnektoren-web-game-pwa-3cbcd3df4998db38_bg.wasm"
-            crossorigin="anonymous"
-            integrity="sha384-dlaAIYq2+YGnk20IX4swIuzl7Or/iXdXHLQF7T0ejgjnUpkaiRSrcASx58ndbN1B"
-            as="fetch"
-            type="application/wasm"
-        />
+</script>
     
-<link rel="modulepreload" href="/konnektoren-web-game-3cbcd3df4998db38.js" crossorigin=anonymous integrity="sha384-9Q+rNbALymSjDZuvi1zH9MtvfKQFJYLHIodWn6VCPzkVbfxfueAreAoVyHrtUKxf">
-<link rel="preload" href="/konnektoren-web-game-3cbcd3df4998db38_bg.wasm" crossorigin=anonymous integrity="sha384-AFotp7JlYsSxGvSeeO6xLA3jFHlh70DjCXkZNruotvmmOO+AE6rugokU6TbkGsNy" as="fetch" type="application/wasm"></head>
+<link rel="modulepreload" href="/konnektoren-web-game-pwa-3cbcd3df4998db38.js" crossorigin=anonymous integrity="sha384-XgvWaNS1QFq92eYx9jZl9X58qzBiCaZyP43J6tiGebj8cp03jr/Y8ox+AEdyKnDC">
+<link rel="modulepreload" href="/16e617ae34ed8ea1-initializer.mjs" crossorigin=anonymous integrity="sha384-+ytoeUcdwmvRquyCKdAwk5vFsodcVRWMTqGMd3xm+jKMo3duvruh1hNfHWIS0/Nw">
+<link rel="preload" href="/konnektoren-web-game-pwa-3cbcd3df4998db38_bg.wasm" crossorigin=anonymous integrity="sha384-dlaAIYq2+YGnk20IX4swIuzl7Or/iXdXHLQF7T0ejgjnUpkaiRSrcASx58ndbN1B" as="fetch" type="application/wasm"></head>
     <body>
         <div id="loading-container">
             <div id="orange-container">
@@ -514,16 +459,5 @@
                 });
             });
         </script>
-    
-<script type="module" nonce="b49pSWVcyeDqx9E13aPm8w==">
-import init, * as bindings from '/konnektoren-web-game-3cbcd3df4998db38.js';
-const wasm = await init('/konnektoren-web-game-3cbcd3df4998db38_bg.wasm');
-
-
-window.wasmBindings = bindings;
-
-
-dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
-
-</script></body>
+    </body>
 </html>
