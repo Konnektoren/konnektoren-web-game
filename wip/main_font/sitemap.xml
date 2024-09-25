@@ -79,6 +79,19 @@
     <xhtml:link rel="alternate" hreflang="ua" href="https://konnektoren.help/profile?lang=ua"/>
   </url>
   <url>
+    <loc>https://konnektoren.help/marketplace</loc>
+    <lastmod>2024-09-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help/marketplace"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://konnektoren.help/marketplace?lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="cn" href="https://konnektoren.help/marketplace?lang=cn"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://konnektoren.help/marketplace?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help/marketplace?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://konnektoren.help/marketplace?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://konnektoren.help/marketplace?lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://konnektoren.help/marketplace?lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="ua" href="https://konnektoren.help/marketplace?lang=ua"/>
+  </url>
+  <url>
     <loc>https://konnektoren.help/challenge/articles-1</loc>
     <lastmod>2024-09-25</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help/challenge/articles-1"/>

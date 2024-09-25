@@ -52,6 +52,15 @@ https://konnektoren.help/profile?lang=es
 https://konnektoren.help/profile?lang=pl
 https://konnektoren.help/profile?lang=tr
 https://konnektoren.help/profile?lang=ua
+https://konnektoren.help/marketplace
+https://konnektoren.help/marketplace?lang=ar
+https://konnektoren.help/marketplace?lang=cn
+https://konnektoren.help/marketplace?lang=de
+https://konnektoren.help/marketplace?lang=en
+https://konnektoren.help/marketplace?lang=es
+https://konnektoren.help/marketplace?lang=pl
+https://konnektoren.help/marketplace?lang=tr
+https://konnektoren.help/marketplace?lang=ua
 https://konnektoren.help/challenge/articles-1
 https://konnektoren.help/challenge/articles-1?lang=ar
 https://konnektoren.help/challenge/articles-1?lang=cn
