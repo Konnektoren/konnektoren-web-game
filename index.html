@@ -231,14 +231,7 @@
         <!-- End Meta Pixel Code -->
 
         <!-- Google tag (gtag.js) -->
-        <script
-            async
-            src="https://www.googletagmanager.com/gtag/js?id=G-N4PBT2YCM5"
-        ></script>
-        <script
-            async
-            src="https://www.googletagmanager.com/gtag/js?id=G-RZE4XV6ER8"
-        ></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-N4PBT2YCM5"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
             function gtag() {
@@ -246,9 +239,11 @@
             }
             gtag("js", new Date());
 
-            gtag("config", "G-N4PBT2YCM5", { groups: "default" });
-            gtag("config", "G-RZE4XV6ER8", { groups: "default" });
+            // Configure both Analytics IDs
+            gtag("config", "G-N4PBT2YCM5", { groups: "default" }); // First ID
+            gtag("config", "G-RZE4XV6ER8", { groups: "default" }); // Second ID
         </script>
+
         <script>
             let min_loading_time = 1000;
             window.addEventListener("load", () => {
@@ -260,6 +255,7 @@
             });
         </script>
 
+        <!-- Load Screen -->
         <style>
             @keyframes fadeOut {
                 from {
@@ -311,7 +307,7 @@
         </style>
 
         
-<script type="module" nonce="iFpju0597ck6Wxx2bSqL5w==">
+<script type="module" nonce="Xur8qkZfSL2zsfrxIwuukg==">
 async function __trunkInitializer(init, source, sourceSize, initializer) {
   if (initializer === undefined) {
     return await init(source);
