@@ -1,0 +1,95 @@
+/* Custom Haupt- und Nebensätze Styles */
+
+.custom_haupt_neben_satze {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+.custom_haupt_neben_satze h1 {
+    color: #333;
+}
+
+.custom_haupt_neben_satze .container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.custom_haupt_neben_satze .sentence-box {
+    border: 2px solid #333;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    width: 40%;
+}
+
+.custom_haupt_neben_satze ul.clauses {
+    list-style-type: none;
+    padding: 0;
+}
+
+.custom_haupt_neben_satze li.draggable,
+.custom_haupt_neben_satze li.droppable {
+    background-color: #ececec;
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    border: 1px solid #333;
+    border-radius: 4px;
+}
+
+.custom_haupt_neben_satze li.droppable {
+    min-height: 40px;
+}
+
+.custom_haupt_neben_satze li.dragging {
+    opacity: 0.5;
+}
+
+.custom_haupt_neben_satze li.hovering {
+    background-color: #d1ffd6;
+}
+
+.custom_haupt_neben_satze li.correct {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+.custom_haupt_neben_satze li.incorrect {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.custom_haupt_neben_satze #check-btn,
+.custom_haupt_neben_satze #reset-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.custom_haupt_neben_satze #check-btn:hover,
+.custom_haupt_neben_satze #reset-btn:hover {
+    background-color: #0056b3;
+}
+
+.custom_haupt_neben_satze #result {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Feedback during drag */
+.custom_haupt_neben_satze li.droppable.correct-during-drag {
+    background-color: #d1ffd6;
+    border-color: #c3e6cb;
+}
+
+.custom_haupt_neben_satze li.droppable.incorrect-during-drag {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}

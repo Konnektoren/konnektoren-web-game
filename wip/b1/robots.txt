@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Allow: /404.html
+Disallow: /profile
+Allow: /sitemap.xml
+Allow: /sitemap.txt
+Allow: /challenge/*
+
+Sitemap: https://konnektoren.help/sitemap.xml
+Sitemap: https://konnektoren.help/sitemap.txt
