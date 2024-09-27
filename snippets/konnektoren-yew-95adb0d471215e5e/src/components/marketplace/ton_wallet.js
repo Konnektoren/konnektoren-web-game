@@ -11,7 +11,6 @@ export async function initTonWallet(
   onConnectCallback,
   onDisconnectCallback,
 ) {
-  console.log("initTonWallet ", manifestUrl);
   try {
     if (!tonConnectUI) {
       tonConnectUI = new TonConnectUI({
@@ -52,8 +51,6 @@ async function getWalletBalance(address) {
 }
 
 export async function payTonWallet(address, amount) {
-  console.log("payTonWallet", address, amount);
-
   if (!tonConnectUI) {
     console.error("TonConnect UI is not initialized");
     throw new Error("TonConnect UI is not initialized");
@@ -73,15 +70,13 @@ export async function payTonWallet(address, amount) {
     // 0.01 TON = 10,000,000
     //
     const nanoTonAmount = amount.toString();
-    const userFriendlyAddress = toUserFriendlyAddress(address, {
-      isUserFriendly: true,
-      isUrlSafe: true,
-      testOnly: USE_TEST_NETWORK,
-    });
+    const userFriendlyAddress = toUserFriendlyAddress(
+      address,
+      USE_TEST_NETWORK,
+    );
 
     const transaction = {
-      //validUntil: Math.floor(Date.now() / 1000) + 360,
-      network: USE_TEST_NETWORK ? "testnet" : "mainnet",
+      validUntil: Math.floor(new Date() / 1000) + 360,
       messages: [
         {
           address: userFriendlyAddress,
@@ -90,11 +85,7 @@ export async function payTonWallet(address, amount) {
       ],
     };
 
-    console.log("Sending transaction:", transaction);
-
-    const result = await tonConnectUI.sendTransaction(transaction);
-    console.log("Transaction sent:", result);
-    return result;
+    return await tonConnectUI.sendTransaction(transaction);
   } catch (error) {
     console.error("Error sending transaction:", error);
     if (error instanceof Error) {
