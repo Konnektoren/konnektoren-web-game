@@ -1,146 +1,458 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://konnektoren.help/</loc>
+    <loc>https://konnektoren.help</loc>
     <lastmod>2024-10-01</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://konnektoren.help/?lang=ar"/>
-    <xhtml:link rel="alternate" hreflang="cn" href="https://konnektoren.help/?lang=cn"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://konnektoren.help/?lang=de"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help/?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://konnektoren.help/?lang=es"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://konnektoren.help/?lang=pl"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://konnektoren.help/?lang=tr"/>
-    <xhtml:link rel="alternate" hreflang="ua" href="https://konnektoren.help/?lang=ua"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://konnektoren.help&lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="cn" href="https://konnektoren.help&lang=cn"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://konnektoren.help&lang=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help&lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://konnektoren.help&lang=es"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://konnektoren.help&lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://konnektoren.help&lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="ua" href="https://konnektoren.help&lang=ua"/>
   </url>
   <url>
-    <loc>https://konnektoren.help/map</loc>
+    <loc>https://konnektoren.help?page=map</loc>
     <lastmod>2024-10-01</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help/map"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://konnektoren.help/map?lang=ar"/>
-    <xhtml:link rel="alternate" hreflang="cn" href="https://konnektoren.help/map?lang=cn"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://konnektoren.help/map?lang=de"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help/map?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://konnektoren.help/map?lang=es"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://konnektoren.help/map?lang=pl"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://konnektoren.help/map?lang=tr"/>
-    <xhtml:link rel="alternate" hreflang="ua" href="https://konnektoren.help/map?lang=ua"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=map"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://konnektoren.help?page=map&lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="cn" href="https://konnektoren.help?page=map&lang=cn"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://konnektoren.help?page=map&lang=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=map&lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://konnektoren.help?page=map&lang=es"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://konnektoren.help?page=map&lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://konnektoren.help?page=map&lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="ua" href="https://konnektoren.help?page=map&lang=ua"/>
   </url>
   <url>
-    <loc>https://konnektoren.help/about</loc>
+    <loc>https://konnektoren.help?page=about</loc>
     <lastmod>2024-10-01</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help/about"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://konnektoren.help/about?lang=ar"/>
-    <xhtml:link rel="alternate" hreflang="cn" href="https://konnektoren.help/about?lang=cn"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://konnektoren.help/about?lang=de"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help/about?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://konnektoren.help/about?lang=es"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://konnektoren.help/about?lang=pl"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://konnektoren.help/about?lang=tr"/>
-    <xhtml:link rel="alternate" hreflang="ua" href="https://konnektoren.help/about?lang=ua"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=about"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://konnektoren.help?page=about&lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="cn" href="https://konnektoren.help?page=about&lang=cn"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://konnektoren.help?page=about&lang=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=about&lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://konnektoren.help?page=about&lang=es"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://konnektoren.help?page=about&lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://konnektoren.help?page=about&lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="ua" href="https://konnektoren.help?page=about&lang=ua"/>
   </url>
   <url>
-    <loc>https://konnektoren.help/challenges</loc>
+    <loc>https://konnektoren.help?page=challenges</loc>
     <lastmod>2024-10-01</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help/challenges"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://konnektoren.help/challenges?lang=ar"/>
-    <xhtml:link rel="alternate" hreflang="cn" href="https://konnektoren.help/challenges?lang=cn"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://konnektoren.help/challenges?lang=de"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help/challenges?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://konnektoren.help/challenges?lang=es"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://konnektoren.help/challenges?lang=pl"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://konnektoren.help/challenges?lang=tr"/>
-    <xhtml:link rel="alternate" hreflang="ua" href="https://konnektoren.help/challenges?lang=ua"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenges"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://konnektoren.help?page=challenges&lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="cn" href="https://konnektoren.help?page=challenges&lang=cn"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://konnektoren.help?page=challenges&lang=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenges&lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://konnektoren.help?page=challenges&lang=es"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://konnektoren.help?page=challenges&lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://konnektoren.help?page=challenges&lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="ua" href="https://konnektoren.help?page=challenges&lang=ua"/>
   </url>
   <url>
-    <loc>https://konnektoren.help/leaderboard</loc>
+    <loc>https://konnektoren.help?page=leaderboard</loc>
     <lastmod>2024-10-01</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help/leaderboard"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://konnektoren.help/leaderboard?lang=ar"/>
-    <xhtml:link rel="alternate" hreflang="cn" href="https://konnektoren.help/leaderboard?lang=cn"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://konnektoren.help/leaderboard?lang=de"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help/leaderboard?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://konnektoren.help/leaderboard?lang=es"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://konnektoren.help/leaderboard?lang=pl"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://konnektoren.help/leaderboard?lang=tr"/>
-    <xhtml:link rel="alternate" hreflang="ua" href="https://konnektoren.help/leaderboard?lang=ua"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=leaderboard"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://konnektoren.help?page=leaderboard&lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="cn" href="https://konnektoren.help?page=leaderboard&lang=cn"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://konnektoren.help?page=leaderboard&lang=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=leaderboard&lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://konnektoren.help?page=leaderboard&lang=es"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://konnektoren.help?page=leaderboard&lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://konnektoren.help?page=leaderboard&lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="ua" href="https://konnektoren.help?page=leaderboard&lang=ua"/>
   </url>
   <url>
-    <loc>https://konnektoren.help/profile</loc>
+    <loc>https://konnektoren.help?page=profile</loc>
     <lastmod>2024-10-01</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help/profile"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://konnektoren.help/profile?lang=ar"/>
-    <xhtml:link rel="alternate" hreflang="cn" href="https://konnektoren.help/profile?lang=cn"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://konnektoren.help/profile?lang=de"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help/profile?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://konnektoren.help/profile?lang=es"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://konnektoren.help/profile?lang=pl"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://konnektoren.help/profile?lang=tr"/>
-    <xhtml:link rel="alternate" hreflang="ua" href="https://konnektoren.help/profile?lang=ua"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=profile"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://konnektoren.help?page=profile&lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="cn" href="https://konnektoren.help?page=profile&lang=cn"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://konnektoren.help?page=profile&lang=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=profile&lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://konnektoren.help?page=profile&lang=es"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://konnektoren.help?page=profile&lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://konnektoren.help?page=profile&lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="ua" href="https://konnektoren.help?page=profile&lang=ua"/>
   </url>
   <url>
-    <loc>https://konnektoren.help/marketplace</loc>
+    <loc>https://konnektoren.help?page=marketplace</loc>
     <lastmod>2024-10-01</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help/marketplace"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://konnektoren.help/marketplace?lang=ar"/>
-    <xhtml:link rel="alternate" hreflang="cn" href="https://konnektoren.help/marketplace?lang=cn"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://konnektoren.help/marketplace?lang=de"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help/marketplace?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://konnektoren.help/marketplace?lang=es"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://konnektoren.help/marketplace?lang=pl"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://konnektoren.help/marketplace?lang=tr"/>
-    <xhtml:link rel="alternate" hreflang="ua" href="https://konnektoren.help/marketplace?lang=ua"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=marketplace"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://konnektoren.help?page=marketplace&lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="cn" href="https://konnektoren.help?page=marketplace&lang=cn"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://konnektoren.help?page=marketplace&lang=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=marketplace&lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://konnektoren.help?page=marketplace&lang=es"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://konnektoren.help?page=marketplace&lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://konnektoren.help?page=marketplace&lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="ua" href="https://konnektoren.help?page=marketplace&lang=ua"/>
   </url>
   <url>
-    <loc>https://konnektoren.help/challenge/articles-1</loc>
+    <loc>https://konnektoren.help?page=challenge&id=articles-1</loc>
     <lastmod>2024-10-01</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help/challenge/articles-1"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://konnektoren.help/challenge/articles-1?lang=ar"/>
-    <xhtml:link rel="alternate" hreflang="cn" href="https://konnektoren.help/challenge/articles-1?lang=cn"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://konnektoren.help/challenge/articles-1?lang=de"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help/challenge/articles-1?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://konnektoren.help/challenge/articles-1?lang=es"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://konnektoren.help/challenge/articles-1?lang=pl"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://konnektoren.help/challenge/articles-1?lang=tr"/>
-    <xhtml:link rel="alternate" hreflang="ua" href="https://konnektoren.help/challenge/articles-1?lang=ua"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=articles-1"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://konnektoren.help?page=challenge&id=articles-1&lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="cn" href="https://konnektoren.help?page=challenge&id=articles-1&lang=cn"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://konnektoren.help?page=challenge&id=articles-1&lang=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=articles-1&lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://konnektoren.help?page=challenge&id=articles-1&lang=es"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://konnektoren.help?page=challenge&id=articles-1&lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://konnektoren.help?page=challenge&id=articles-1&lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="ua" href="https://konnektoren.help?page=challenge&id=articles-1&lang=ua"/>
   </url>
   <url>
-    <loc>https://konnektoren.help/challenge/reflexivpronoun-1</loc>
+    <loc>https://konnektoren.help?page=challenge&id=articles-2</loc>
     <lastmod>2024-10-01</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help/challenge/reflexivpronoun-1"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://konnektoren.help/challenge/reflexivpronoun-1?lang=ar"/>
-    <xhtml:link rel="alternate" hreflang="cn" href="https://konnektoren.help/challenge/reflexivpronoun-1?lang=cn"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://konnektoren.help/challenge/reflexivpronoun-1?lang=de"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help/challenge/reflexivpronoun-1?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://konnektoren.help/challenge/reflexivpronoun-1?lang=es"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://konnektoren.help/challenge/reflexivpronoun-1?lang=pl"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://konnektoren.help/challenge/reflexivpronoun-1?lang=tr"/>
-    <xhtml:link rel="alternate" hreflang="ua" href="https://konnektoren.help/challenge/reflexivpronoun-1?lang=ua"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=articles-2"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://konnektoren.help?page=challenge&id=articles-2&lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="cn" href="https://konnektoren.help?page=challenge&id=articles-2&lang=cn"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://konnektoren.help?page=challenge&id=articles-2&lang=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=articles-2&lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://konnektoren.help?page=challenge&id=articles-2&lang=es"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://konnektoren.help?page=challenge&id=articles-2&lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://konnektoren.help?page=challenge&id=articles-2&lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="ua" href="https://konnektoren.help?page=challenge&id=articles-2&lang=ua"/>
   </url>
   <url>
-    <loc>https://konnektoren.help/challenge/personal_pronouns-1</loc>
+    <loc>https://konnektoren.help?page=challenge&id=articles-3</loc>
     <lastmod>2024-10-01</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help/challenge/personal_pronouns-1"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://konnektoren.help/challenge/personal_pronouns-1?lang=ar"/>
-    <xhtml:link rel="alternate" hreflang="cn" href="https://konnektoren.help/challenge/personal_pronouns-1?lang=cn"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://konnektoren.help/challenge/personal_pronouns-1?lang=de"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help/challenge/personal_pronouns-1?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://konnektoren.help/challenge/personal_pronouns-1?lang=es"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://konnektoren.help/challenge/personal_pronouns-1?lang=pl"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://konnektoren.help/challenge/personal_pronouns-1?lang=tr"/>
-    <xhtml:link rel="alternate" hreflang="ua" href="https://konnektoren.help/challenge/personal_pronouns-1?lang=ua"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=articles-3"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://konnektoren.help?page=challenge&id=articles-3&lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="cn" href="https://konnektoren.help?page=challenge&id=articles-3&lang=cn"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://konnektoren.help?page=challenge&id=articles-3&lang=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=articles-3&lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://konnektoren.help?page=challenge&id=articles-3&lang=es"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://konnektoren.help?page=challenge&id=articles-3&lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://konnektoren.help?page=challenge&id=articles-3&lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="ua" href="https://konnektoren.help?page=challenge&id=articles-3&lang=ua"/>
   </url>
   <url>
-    <loc>https://konnektoren.help/challenge/konnektoren-1</loc>
+    <loc>https://konnektoren.help?page=challenge&id=articles-4</loc>
     <lastmod>2024-10-01</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help/challenge/konnektoren-1"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://konnektoren.help/challenge/konnektoren-1?lang=ar"/>
-    <xhtml:link rel="alternate" hreflang="cn" href="https://konnektoren.help/challenge/konnektoren-1?lang=cn"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://konnektoren.help/challenge/konnektoren-1?lang=de"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help/challenge/konnektoren-1?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://konnektoren.help/challenge/konnektoren-1?lang=es"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://konnektoren.help/challenge/konnektoren-1?lang=pl"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://konnektoren.help/challenge/konnektoren-1?lang=tr"/>
-    <xhtml:link rel="alternate" hreflang="ua" href="https://konnektoren.help/challenge/konnektoren-1?lang=ua"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=articles-4"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://konnektoren.help?page=challenge&id=articles-4&lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="cn" href="https://konnektoren.help?page=challenge&id=articles-4&lang=cn"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://konnektoren.help?page=challenge&id=articles-4&lang=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=articles-4&lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://konnektoren.help?page=challenge&id=articles-4&lang=es"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://konnektoren.help?page=challenge&id=articles-4&lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://konnektoren.help?page=challenge&id=articles-4&lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="ua" href="https://konnektoren.help?page=challenge&id=articles-4&lang=ua"/>
+  </url>
+  <url>
+    <loc>https://konnektoren.help?page=challenge&id=articles-5</loc>
+    <lastmod>2024-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=articles-5"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://konnektoren.help?page=challenge&id=articles-5&lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="cn" href="https://konnektoren.help?page=challenge&id=articles-5&lang=cn"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://konnektoren.help?page=challenge&id=articles-5&lang=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=articles-5&lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://konnektoren.help?page=challenge&id=articles-5&lang=es"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://konnektoren.help?page=challenge&id=articles-5&lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://konnektoren.help?page=challenge&id=articles-5&lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="ua" href="https://konnektoren.help?page=challenge&id=articles-5&lang=ua"/>
+  </url>
+  <url>
+    <loc>https://konnektoren.help?page=challenge&id=articles-6</loc>
+    <lastmod>2024-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=articles-6"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://konnektoren.help?page=challenge&id=articles-6&lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="cn" href="https://konnektoren.help?page=challenge&id=articles-6&lang=cn"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://konnektoren.help?page=challenge&id=articles-6&lang=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=articles-6&lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://konnektoren.help?page=challenge&id=articles-6&lang=es"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://konnektoren.help?page=challenge&id=articles-6&lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://konnektoren.help?page=challenge&id=articles-6&lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="ua" href="https://konnektoren.help?page=challenge&id=articles-6&lang=ua"/>
+  </url>
+  <url>
+    <loc>https://konnektoren.help?page=challenge&id=reflexivpronoun-1</loc>
+    <lastmod>2024-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=reflexivpronoun-1"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://konnektoren.help?page=challenge&id=reflexivpronoun-1&lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="cn" href="https://konnektoren.help?page=challenge&id=reflexivpronoun-1&lang=cn"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://konnektoren.help?page=challenge&id=reflexivpronoun-1&lang=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=reflexivpronoun-1&lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://konnektoren.help?page=challenge&id=reflexivpronoun-1&lang=es"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://konnektoren.help?page=challenge&id=reflexivpronoun-1&lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://konnektoren.help?page=challenge&id=reflexivpronoun-1&lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="ua" href="https://konnektoren.help?page=challenge&id=reflexivpronoun-1&lang=ua"/>
+  </url>
+  <url>
+    <loc>https://konnektoren.help?page=challenge&id=reflexivpronoun-2</loc>
+    <lastmod>2024-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=reflexivpronoun-2"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://konnektoren.help?page=challenge&id=reflexivpronoun-2&lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="cn" href="https://konnektoren.help?page=challenge&id=reflexivpronoun-2&lang=cn"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://konnektoren.help?page=challenge&id=reflexivpronoun-2&lang=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=reflexivpronoun-2&lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://konnektoren.help?page=challenge&id=reflexivpronoun-2&lang=es"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://konnektoren.help?page=challenge&id=reflexivpronoun-2&lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://konnektoren.help?page=challenge&id=reflexivpronoun-2&lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="ua" href="https://konnektoren.help?page=challenge&id=reflexivpronoun-2&lang=ua"/>
+  </url>
+  <url>
+    <loc>https://konnektoren.help?page=challenge&id=personal_pronouns-1</loc>
+    <lastmod>2024-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=personal_pronouns-1"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://konnektoren.help?page=challenge&id=personal_pronouns-1&lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="cn" href="https://konnektoren.help?page=challenge&id=personal_pronouns-1&lang=cn"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://konnektoren.help?page=challenge&id=personal_pronouns-1&lang=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=personal_pronouns-1&lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://konnektoren.help?page=challenge&id=personal_pronouns-1&lang=es"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://konnektoren.help?page=challenge&id=personal_pronouns-1&lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://konnektoren.help?page=challenge&id=personal_pronouns-1&lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="ua" href="https://konnektoren.help?page=challenge&id=personal_pronouns-1&lang=ua"/>
+  </url>
+  <url>
+    <loc>https://konnektoren.help?page=challenge&id=personal_pronouns-2</loc>
+    <lastmod>2024-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=personal_pronouns-2"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://konnektoren.help?page=challenge&id=personal_pronouns-2&lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="cn" href="https://konnektoren.help?page=challenge&id=personal_pronouns-2&lang=cn"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://konnektoren.help?page=challenge&id=personal_pronouns-2&lang=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=personal_pronouns-2&lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://konnektoren.help?page=challenge&id=personal_pronouns-2&lang=es"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://konnektoren.help?page=challenge&id=personal_pronouns-2&lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://konnektoren.help?page=challenge&id=personal_pronouns-2&lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="ua" href="https://konnektoren.help?page=challenge&id=personal_pronouns-2&lang=ua"/>
+  </url>
+  <url>
+    <loc>https://konnektoren.help?page=challenge&id=konnektoren-1</loc>
+    <lastmod>2024-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=konnektoren-1"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://konnektoren.help?page=challenge&id=konnektoren-1&lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="cn" href="https://konnektoren.help?page=challenge&id=konnektoren-1&lang=cn"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://konnektoren.help?page=challenge&id=konnektoren-1&lang=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=konnektoren-1&lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://konnektoren.help?page=challenge&id=konnektoren-1&lang=es"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://konnektoren.help?page=challenge&id=konnektoren-1&lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://konnektoren.help?page=challenge&id=konnektoren-1&lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="ua" href="https://konnektoren.help?page=challenge&id=konnektoren-1&lang=ua"/>
+  </url>
+  <url>
+    <loc>https://konnektoren.help?page=challenge&id=konnektoren-2</loc>
+    <lastmod>2024-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=konnektoren-2"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://konnektoren.help?page=challenge&id=konnektoren-2&lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="cn" href="https://konnektoren.help?page=challenge&id=konnektoren-2&lang=cn"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://konnektoren.help?page=challenge&id=konnektoren-2&lang=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=konnektoren-2&lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://konnektoren.help?page=challenge&id=konnektoren-2&lang=es"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://konnektoren.help?page=challenge&id=konnektoren-2&lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://konnektoren.help?page=challenge&id=konnektoren-2&lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="ua" href="https://konnektoren.help?page=challenge&id=konnektoren-2&lang=ua"/>
+  </url>
+  <url>
+    <loc>https://konnektoren.help?page=challenge&id=konnektoren-3</loc>
+    <lastmod>2024-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=konnektoren-3"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://konnektoren.help?page=challenge&id=konnektoren-3&lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="cn" href="https://konnektoren.help?page=challenge&id=konnektoren-3&lang=cn"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://konnektoren.help?page=challenge&id=konnektoren-3&lang=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=konnektoren-3&lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://konnektoren.help?page=challenge&id=konnektoren-3&lang=es"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://konnektoren.help?page=challenge&id=konnektoren-3&lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://konnektoren.help?page=challenge&id=konnektoren-3&lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="ua" href="https://konnektoren.help?page=challenge&id=konnektoren-3&lang=ua"/>
+  </url>
+  <url>
+    <loc>https://konnektoren.help?page=challenge&id=konnektoren-4</loc>
+    <lastmod>2024-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=konnektoren-4"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://konnektoren.help?page=challenge&id=konnektoren-4&lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="cn" href="https://konnektoren.help?page=challenge&id=konnektoren-4&lang=cn"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://konnektoren.help?page=challenge&id=konnektoren-4&lang=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=konnektoren-4&lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://konnektoren.help?page=challenge&id=konnektoren-4&lang=es"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://konnektoren.help?page=challenge&id=konnektoren-4&lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://konnektoren.help?page=challenge&id=konnektoren-4&lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="ua" href="https://konnektoren.help?page=challenge&id=konnektoren-4&lang=ua"/>
+  </url>
+  <url>
+    <loc>https://konnektoren.help?page=challenge&id=konnektoren-5</loc>
+    <lastmod>2024-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=konnektoren-5"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://konnektoren.help?page=challenge&id=konnektoren-5&lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="cn" href="https://konnektoren.help?page=challenge&id=konnektoren-5&lang=cn"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://konnektoren.help?page=challenge&id=konnektoren-5&lang=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=konnektoren-5&lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://konnektoren.help?page=challenge&id=konnektoren-5&lang=es"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://konnektoren.help?page=challenge&id=konnektoren-5&lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://konnektoren.help?page=challenge&id=konnektoren-5&lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="ua" href="https://konnektoren.help?page=challenge&id=konnektoren-5&lang=ua"/>
+  </url>
+  <url>
+    <loc>https://konnektoren.help?page=challenge&id=custom-verbs-1</loc>
+    <lastmod>2024-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=custom-verbs-1"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://konnektoren.help?page=challenge&id=custom-verbs-1&lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="cn" href="https://konnektoren.help?page=challenge&id=custom-verbs-1&lang=cn"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://konnektoren.help?page=challenge&id=custom-verbs-1&lang=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=custom-verbs-1&lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://konnektoren.help?page=challenge&id=custom-verbs-1&lang=es"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://konnektoren.help?page=challenge&id=custom-verbs-1&lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://konnektoren.help?page=challenge&id=custom-verbs-1&lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="ua" href="https://konnektoren.help?page=challenge&id=custom-verbs-1&lang=ua"/>
+  </url>
+  <url>
+    <loc>https://konnektoren.help?page=challenge&id=custom-perfect_tense-1</loc>
+    <lastmod>2024-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=custom-perfect_tense-1"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://konnektoren.help?page=challenge&id=custom-perfect_tense-1&lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="cn" href="https://konnektoren.help?page=challenge&id=custom-perfect_tense-1&lang=cn"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://konnektoren.help?page=challenge&id=custom-perfect_tense-1&lang=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=custom-perfect_tense-1&lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://konnektoren.help?page=challenge&id=custom-perfect_tense-1&lang=es"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://konnektoren.help?page=challenge&id=custom-perfect_tense-1&lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://konnektoren.help?page=challenge&id=custom-perfect_tense-1&lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="ua" href="https://konnektoren.help?page=challenge&id=custom-perfect_tense-1&lang=ua"/>
+  </url>
+  <url>
+    <loc>https://konnektoren.help?page=challenge&id=custom-group-of-nouns</loc>
+    <lastmod>2024-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=custom-group-of-nouns"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://konnektoren.help?page=challenge&id=custom-group-of-nouns&lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="cn" href="https://konnektoren.help?page=challenge&id=custom-group-of-nouns&lang=cn"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://konnektoren.help?page=challenge&id=custom-group-of-nouns&lang=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=custom-group-of-nouns&lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://konnektoren.help?page=challenge&id=custom-group-of-nouns&lang=es"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://konnektoren.help?page=challenge&id=custom-group-of-nouns&lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://konnektoren.help?page=challenge&id=custom-group-of-nouns&lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="ua" href="https://konnektoren.help?page=challenge&id=custom-group-of-nouns&lang=ua"/>
+  </url>
+  <url>
+    <loc>https://konnektoren.help?page=challenge&id=custom-negation</loc>
+    <lastmod>2024-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=custom-negation"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://konnektoren.help?page=challenge&id=custom-negation&lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="cn" href="https://konnektoren.help?page=challenge&id=custom-negation&lang=cn"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://konnektoren.help?page=challenge&id=custom-negation&lang=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=custom-negation&lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://konnektoren.help?page=challenge&id=custom-negation&lang=es"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://konnektoren.help?page=challenge&id=custom-negation&lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://konnektoren.help?page=challenge&id=custom-negation&lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="ua" href="https://konnektoren.help?page=challenge&id=custom-negation&lang=ua"/>
+  </url>
+  <url>
+    <loc>https://konnektoren.help?page=challenge&id=custom_haupt-neben-satze_exercise</loc>
+    <lastmod>2024-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=custom_haupt-neben-satze_exercise"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://konnektoren.help?page=challenge&id=custom_haupt-neben-satze_exercise&lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="cn" href="https://konnektoren.help?page=challenge&id=custom_haupt-neben-satze_exercise&lang=cn"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://konnektoren.help?page=challenge&id=custom_haupt-neben-satze_exercise&lang=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=custom_haupt-neben-satze_exercise&lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://konnektoren.help?page=challenge&id=custom_haupt-neben-satze_exercise&lang=es"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://konnektoren.help?page=challenge&id=custom_haupt-neben-satze_exercise&lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://konnektoren.help?page=challenge&id=custom_haupt-neben-satze_exercise&lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="ua" href="https://konnektoren.help?page=challenge&id=custom_haupt-neben-satze_exercise&lang=ua"/>
+  </url>
+  <url>
+    <loc>https://konnektoren.help?page=challenge&id=verbs_mit_dativ_akkusativ</loc>
+    <lastmod>2024-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=verbs_mit_dativ_akkusativ"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://konnektoren.help?page=challenge&id=verbs_mit_dativ_akkusativ&lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="cn" href="https://konnektoren.help?page=challenge&id=verbs_mit_dativ_akkusativ&lang=cn"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://konnektoren.help?page=challenge&id=verbs_mit_dativ_akkusativ&lang=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=verbs_mit_dativ_akkusativ&lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://konnektoren.help?page=challenge&id=verbs_mit_dativ_akkusativ&lang=es"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://konnektoren.help?page=challenge&id=verbs_mit_dativ_akkusativ&lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://konnektoren.help?page=challenge&id=verbs_mit_dativ_akkusativ&lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="ua" href="https://konnektoren.help?page=challenge&id=verbs_mit_dativ_akkusativ&lang=ua"/>
+  </url>
+  <url>
+    <loc>https://konnektoren.help?page=challenge&id=custom-konjunktiv2</loc>
+    <lastmod>2024-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=custom-konjunktiv2"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://konnektoren.help?page=challenge&id=custom-konjunktiv2&lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="cn" href="https://konnektoren.help?page=challenge&id=custom-konjunktiv2&lang=cn"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://konnektoren.help?page=challenge&id=custom-konjunktiv2&lang=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=custom-konjunktiv2&lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://konnektoren.help?page=challenge&id=custom-konjunktiv2&lang=es"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://konnektoren.help?page=challenge&id=custom-konjunktiv2&lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://konnektoren.help?page=challenge&id=custom-konjunktiv2&lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="ua" href="https://konnektoren.help?page=challenge&id=custom-konjunktiv2&lang=ua"/>
+  </url>
+  <url>
+    <loc>https://konnektoren.help?page=challenge&id=custom-zeitangaben</loc>
+    <lastmod>2024-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=custom-zeitangaben"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://konnektoren.help?page=challenge&id=custom-zeitangaben&lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="cn" href="https://konnektoren.help?page=challenge&id=custom-zeitangaben&lang=cn"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://konnektoren.help?page=challenge&id=custom-zeitangaben&lang=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=custom-zeitangaben&lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://konnektoren.help?page=challenge&id=custom-zeitangaben&lang=es"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://konnektoren.help?page=challenge&id=custom-zeitangaben&lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://konnektoren.help?page=challenge&id=custom-zeitangaben&lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="ua" href="https://konnektoren.help?page=challenge&id=custom-zeitangaben&lang=ua"/>
+  </url>
+  <url>
+    <loc>https://konnektoren.help?page=challenge&id=custom-casus</loc>
+    <lastmod>2024-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=custom-casus"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://konnektoren.help?page=challenge&id=custom-casus&lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="cn" href="https://konnektoren.help?page=challenge&id=custom-casus&lang=cn"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://konnektoren.help?page=challenge&id=custom-casus&lang=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=custom-casus&lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://konnektoren.help?page=challenge&id=custom-casus&lang=es"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://konnektoren.help?page=challenge&id=custom-casus&lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://konnektoren.help?page=challenge&id=custom-casus&lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="ua" href="https://konnektoren.help?page=challenge&id=custom-casus&lang=ua"/>
+  </url>
+  <url>
+    <loc>https://konnektoren.help?page=challenge&id=custom_past_tenses</loc>
+    <lastmod>2024-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=custom_past_tenses"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://konnektoren.help?page=challenge&id=custom_past_tenses&lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="cn" href="https://konnektoren.help?page=challenge&id=custom_past_tenses&lang=cn"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://konnektoren.help?page=challenge&id=custom_past_tenses&lang=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=custom_past_tenses&lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://konnektoren.help?page=challenge&id=custom_past_tenses&lang=es"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://konnektoren.help?page=challenge&id=custom_past_tenses&lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://konnektoren.help?page=challenge&id=custom_past_tenses&lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="ua" href="https://konnektoren.help?page=challenge&id=custom_past_tenses&lang=ua"/>
+  </url>
+  <url>
+    <loc>https://konnektoren.help?page=challenge&id=custom_verbs_prepositions</loc>
+    <lastmod>2024-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=custom_verbs_prepositions"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://konnektoren.help?page=challenge&id=custom_verbs_prepositions&lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="cn" href="https://konnektoren.help?page=challenge&id=custom_verbs_prepositions&lang=cn"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://konnektoren.help?page=challenge&id=custom_verbs_prepositions&lang=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=custom_verbs_prepositions&lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://konnektoren.help?page=challenge&id=custom_verbs_prepositions&lang=es"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://konnektoren.help?page=challenge&id=custom_verbs_prepositions&lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://konnektoren.help?page=challenge&id=custom_verbs_prepositions&lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="ua" href="https://konnektoren.help?page=challenge&id=custom_verbs_prepositions&lang=ua"/>
+  </url>
+  <url>
+    <loc>https://konnektoren.help?page=challenge&id=custom_interrogative_particles</loc>
+    <lastmod>2024-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=custom_interrogative_particles"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://konnektoren.help?page=challenge&id=custom_interrogative_particles&lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="cn" href="https://konnektoren.help?page=challenge&id=custom_interrogative_particles&lang=cn"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://konnektoren.help?page=challenge&id=custom_interrogative_particles&lang=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=custom_interrogative_particles&lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://konnektoren.help?page=challenge&id=custom_interrogative_particles&lang=es"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://konnektoren.help?page=challenge&id=custom_interrogative_particles&lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://konnektoren.help?page=challenge&id=custom_interrogative_particles&lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="ua" href="https://konnektoren.help?page=challenge&id=custom_interrogative_particles&lang=ua"/>
+  </url>
+  <url>
+    <loc>https://konnektoren.help?page=challenge&id=custom-articles-1</loc>
+    <lastmod>2024-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=custom-articles-1"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://konnektoren.help?page=challenge&id=custom-articles-1&lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="cn" href="https://konnektoren.help?page=challenge&id=custom-articles-1&lang=cn"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://konnektoren.help?page=challenge&id=custom-articles-1&lang=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://konnektoren.help?page=challenge&id=custom-articles-1&lang=en"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://konnektoren.help?page=challenge&id=custom-articles-1&lang=es"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://konnektoren.help?page=challenge&id=custom-articles-1&lang=pl"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://konnektoren.help?page=challenge&id=custom-articles-1&lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="ua" href="https://konnektoren.help?page=challenge&id=custom-articles-1&lang=ua"/>
   </url>
 </urlset>
