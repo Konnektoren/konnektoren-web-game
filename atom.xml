@@ -1,88 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Konnektoren.help</title>
+  <title>konnektoren.help</title>
   <link href="https://konnektoren.help/atom.xml" rel="self"/>
   <link href="https://konnektoren.help"/>
-  <updated>2024-10-01T07:51:42Z</updated>
+  <updated>2024-10-01T09:15:34Z</updated>
   <id>https://konnektoren.help/</id>
   <author>
-    <name>Konnektoren.help</name>
+    <name>konnektoren.help</name>
   </author>
   <entry>
     <title>Home</title>
     <link href="https://konnektoren.help/"/>
     <id>https://konnektoren.help/</id>
-    <updated>2024-10-01T07:51:42Z</updated>
-    <summary>Learn about Home on Konnektoren.help</summary>
+    <updated>2024-10-01T09:15:34Z</updated>
+    <summary>Learn about Home on konnektoren.help</summary>
   </entry>
   <entry>
     <title>Map</title>
     <link href="https://konnektoren.help/map"/>
     <id>https://konnektoren.help/map</id>
-    <updated>2024-10-01T07:51:42Z</updated>
-    <summary>Learn about Map on Konnektoren.help</summary>
+    <updated>2024-10-01T09:15:34Z</updated>
+    <summary>Learn about Map on konnektoren.help</summary>
   </entry>
   <entry>
     <title>About</title>
     <link href="https://konnektoren.help/about"/>
     <id>https://konnektoren.help/about</id>
-    <updated>2024-10-01T07:51:42Z</updated>
-    <summary>Learn about About on Konnektoren.help</summary>
+    <updated>2024-10-01T09:15:34Z</updated>
+    <summary>Learn about About on konnektoren.help</summary>
   </entry>
   <entry>
     <title>Challenges</title>
     <link href="https://konnektoren.help/challenges"/>
     <id>https://konnektoren.help/challenges</id>
-    <updated>2024-10-01T07:51:42Z</updated>
-    <summary>Learn about Challenges on Konnektoren.help</summary>
+    <updated>2024-10-01T09:15:34Z</updated>
+    <summary>Learn about Challenges on konnektoren.help</summary>
   </entry>
   <entry>
     <title>Leaderboard</title>
     <link href="https://konnektoren.help/leaderboard"/>
     <id>https://konnektoren.help/leaderboard</id>
-    <updated>2024-10-01T07:51:42Z</updated>
-    <summary>Learn about Leaderboard on Konnektoren.help</summary>
+    <updated>2024-10-01T09:15:34Z</updated>
+    <summary>Learn about Leaderboard on konnektoren.help</summary>
   </entry>
   <entry>
     <title>Profile</title>
     <link href="https://konnektoren.help/profile"/>
     <id>https://konnektoren.help/profile</id>
-    <updated>2024-10-01T07:51:42Z</updated>
-    <summary>Learn about Profile on Konnektoren.help</summary>
+    <updated>2024-10-01T09:15:34Z</updated>
+    <summary>Learn about Profile on konnektoren.help</summary>
   </entry>
   <entry>
     <title>Marketplace</title>
     <link href="https://konnektoren.help/marketplace"/>
     <id>https://konnektoren.help/marketplace</id>
-    <updated>2024-10-01T07:51:42Z</updated>
-    <summary>Learn about Marketplace on Konnektoren.help</summary>
+    <updated>2024-10-01T09:15:34Z</updated>
+    <summary>Learn about Marketplace on konnektoren.help</summary>
   </entry>
   <entry>
     <title>Challenge - Articles 1</title>
     <link href="https://konnektoren.help/challenge/articles-1"/>
     <id>https://konnektoren.help/challenge/articles-1</id>
-    <updated>2024-10-01T07:51:42Z</updated>
-    <summary>Learn about Challenge - Articles 1 on Konnektoren.help</summary>
+    <updated>2024-10-01T09:15:34Z</updated>
+    <summary>Learn about Challenge - Articles 1 on konnektoren.help</summary>
   </entry>
   <entry>
     <title>Challenge - Reflexivpronoun 1</title>
     <link href="https://konnektoren.help/challenge/reflexivpronoun-1"/>
     <id>https://konnektoren.help/challenge/reflexivpronoun-1</id>
-    <updated>2024-10-01T07:51:42Z</updated>
-    <summary>Learn about Challenge - Reflexivpronoun 1 on Konnektoren.help</summary>
+    <updated>2024-10-01T09:15:34Z</updated>
+    <summary>Learn about Challenge - Reflexivpronoun 1 on konnektoren.help</summary>
   </entry>
   <entry>
     <title>Challenge - Personal_pronouns 1</title>
     <link href="https://konnektoren.help/challenge/personal_pronouns-1"/>
     <id>https://konnektoren.help/challenge/personal_pronouns-1</id>
-    <updated>2024-10-01T07:51:42Z</updated>
-    <summary>Learn about Challenge - Personal_pronouns 1 on Konnektoren.help</summary>
+    <updated>2024-10-01T09:15:34Z</updated>
+    <summary>Learn about Challenge - Personal_pronouns 1 on konnektoren.help</summary>
   </entry>
   <entry>
     <title>Challenge - Konnektoren 1</title>
     <link href="https://konnektoren.help/challenge/konnektoren-1"/>
     <id>https://konnektoren.help/challenge/konnektoren-1</id>
-    <updated>2024-10-01T07:51:42Z</updated>
-    <summary>Learn about Challenge - Konnektoren 1 on Konnektoren.help</summary>
+    <updated>2024-10-01T09:15:34Z</updated>
+    <summary>Learn about Challenge - Konnektoren 1 on konnektoren.help</summary>
   </entry>
 </feed>
