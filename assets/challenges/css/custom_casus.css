@@ -26,7 +26,7 @@
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
 }
 
-.custom-casus-challenge__question {
+.custom-casus-challenge__question-container {
     margin-bottom: 1.25rem;
 }
 
@@ -35,7 +35,7 @@
     margin-bottom: 0.625rem;
 }
 
-.custom-casus-challenge__options {
+.custom-casus-challenge__options-list {
     list-style-type: none;
     padding: 0;
 }
@@ -83,6 +83,34 @@
     font-size: 1.2rem;
     color: #27ae60;
     text-align: center;
+}
+
+/* Hide list items by default */
+.custom-casus-challenge__options-list li {
+    display: none;
+}
+
+/* Center feedback above the button */
+.custom-casus-challenge__feedback {
+    margin-top: 1.25rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3125rem;
+    display: none; /* Initially hidden */
+    opacity: 1; /* Full opacity */
+    text-align: center; /* Center the feedback text */
+    margin-bottom: 0.625rem; /* Add space before the button */
+}
+
+.custom-casus-challenge__feedback--correct {
+    color: white;
+    background-color: #4caf50; /* Green for correct */
+}
+
+.custom-casus-challenge__feedback--incorrect {
+    color: white;
+    background-color: #f44336; /* Red for incorrect */
 }
 
 @media (max-width: 48rem) {

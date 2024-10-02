@@ -19,81 +19,15 @@
 
             <section class="custom-casus-challenge__quiz-section">
                 <form id="quiz-form" class="custom-casus-challenge__form">
-                    <div class="custom-casus-challenge__question">
-                        <p class="custom-casus-challenge__question-text">
-                            1. <strong>Der Hund</strong> läuft im Park. Welcher
-                            Fall?
-                        </p>
-                        <ul class="custom-casus-challenge__options">
-                            <li class="custom-casus-challenge__option">
-                                <label
-                                    class="custom-casus-challenge__option-label"
-                                >
-                                    <input
-                                        type="radio"
-                                        name="q1"
-                                        value="nominative"
-                                        class="custom-casus-challenge__option-input"
-                                    />
-                                    Nominativ
-                                </label>
-                            </li>
-                            <li class="custom-casus-challenge__option">
-                                <label
-                                    class="custom-casus-challenge__option-label"
-                                >
-                                    <input
-                                        type="radio"
-                                        name="q1"
-                                        value="accusative"
-                                        class="custom-casus-challenge__option-input"
-                                    />
-                                    Akkusativ
-                                </label>
-                            </li>
-                            <li class="custom-casus-challenge__option">
-                                <label
-                                    class="custom-casus-challenge__option-label"
-                                >
-                                    <input
-                                        type="radio"
-                                        name="q1"
-                                        value="dative"
-                                        class="custom-casus-challenge__option-input"
-                                    />
-                                    Dativ
-                                </label>
-                            </li>
-                            <li class="custom-casus-challenge__option">
-                                <label
-                                    class="custom-casus-challenge__option-label"
-                                >
-                                    <input
-                                        type="radio"
-                                        name="q1"
-                                        value="genitive"
-                                        class="custom-casus-challenge__option-input"
-                                    />
-                                    Genitiv
-                                </label>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <!-- Repeat the above structure for questions 2, 3, and 4 -->
-
-                    <button
-                        type="submit"
-                        class="custom-casus-challenge__submit-button"
-                    >
-                        Antworten Überprüfen
-                    </button>
+                    <ul class="custom-casus-challenge__options-list">
+                        <!-- Questions will be dynamically inserted here -->
+                    </ul>
                 </form>
 
                 <div id="results" class="custom-casus-challenge__results"></div>
             </section>
         </div>
-
+        <div class="custom-casus-challenge__feedback"></div>
         <script src="../js/custom_casus.js"></script>
     </body>
 </html>
